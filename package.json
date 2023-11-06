@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "ethers": "^6.8.1",
+    "hardhat": "^2.19.0",
+    "typescript": "^5.2.2"
+  },
+  "name": "nft-comemorative",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
