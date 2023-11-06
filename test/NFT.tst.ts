@@ -18,14 +18,14 @@ describe("NFT", function () {
 
   //it("Should allow owner to change conversion rate", async function () {
   // const newRate = ethers.utils.parseUnits("2", 14);
-  // await brzSwap.connect(owner).setConversionRate(newRate);
-  // expect(await brzSwap.conversionRate()).to.equal(newRate);
+  // await swap.connect(owner).setConversionRate(newRate);
+  // expect(await swap.conversionRate()).to.equal(newRate);
   //});
 
   //it("Should not allow other address to transfer ownership", async function () {
   // try to change ownership from addr1
   // expect(
-  //  await brzSwap.connect(addr1).transferOwnership(addr1.address)
+  //  await swap.connect(addr1).transferOwnership(addr1.address)
   //).to.be.revertedWith(
   //  "VM Exception while processing transaction: reverted with reason string 'Ownable: caller is not the owner'"
   //);
